@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasad Dhotre - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <img src="your-photo.jpg" alt="Prasad Dhotre" class="profile-photo">
+            <h1>Hi, I'm Prasad Dhotre</h1>
+            <p>I'm a passionate web developer with a focus on creating innovative and user-friendly applications.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer with a background in computer science. I have experience in various web technologies including HTML, CSS, JavaScript, and more. My goal is to create impactful web experiences that solve real-world problems.</p>
+        <h3>Education</h3>
+        <p>Bachelor of Science in Computer Science from Pune University.</p>
+        <h3>Professional Experience</h3>
+        <p>Worked as a web developer at SAE Pune Company, where I led multiple projects and collaborated with cross-functional teams.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A esigned and developed a visually appealing and highly interactive landing page for a fictional tech startup. The landing page serves as the primary gateway to introduce the company’s innovative products and capture potential customer leads.
+
+Technologies Used:
+
+HTML5: Structured the content and layout of the landing page.
+CSS3: Applied modern styling techniques, including responsive design, animations, and transitions for an engaging user experience.
+JavaScript: Implemented dynamic features such as smooth scrolling, interactive elements, and form validation to enhance user interaction.
+Bootstrap: Utilized for responsive design and grid layout to ensure compatibility across different devices and screen sizes. </p>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>A Developed a fully functional stopwatch web application that allows users to measure and track time intervals with precision. This application features functionalities such as start, pause, reset, and lap recording, providing a comprehensive tool for timing and performance tracking.
+
+Technologies Used:
+
+HTML5: Structured the layout of the stopwatch, including buttons and display elements.
+CSS3: Designed the user interface with modern styling techniques to ensure a clean and user-friendly experience. Implemented responsive design to maintain functionality across various devices.
+JavaScript: Handled the core functionality of the stopwatch, including time calculations, button interactions, and lap recording.
+Bootstrap: Utilized for styling and responsive design to ensure a consistent look and feel across different devices and screen size</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via email or LinkedIn.</p>
+        <p>Email: prasaddhotre37@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/prasad-dhotre" target="_blank">Prasad Dhotre</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prasad Dhotre. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
